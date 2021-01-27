@@ -1,0 +1,40 @@
+\documentclass[11pt]{article}
+\usepackage{fancyhdr} %allows you to use headers and footers
+\usepackage{graphicx}
+\usepackage[a4paper]{geometry} %Defines what papersize is used
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{wrapfig}
+\usepackage[table,xcdraw]{xcolor} 
+\usepackage{amsmath}
+\usepackage{lastpage}
+\usepackage{titling}
+\usepackage[overload]{textcase}
+\usepackage{enumitem}
+
+\pagestyle{fancy} 
+\lhead{\theauthor} % Set the left header, contains the authors name
+\rhead{\thetitle\\ \today} %Set the right header, containts the title and date.
+\cfoot{Sida \thepage\ av \pageref{LastPage}}
+
+\include{Commands} % adds a file without displaying it
+\color[rgb]{0.9,0.9,0.9} %black
+\pagecolor[rgb]{0.15,0.15,0.15} %grey
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+\setlength{\headheight}{26pt}
+
+\author{Authors} %Definiera författaren/författarnas namn.
+\title{Inlämningsuppgift 1} %Definiera dokumentets titel.
+
+\begin{document}
+\customtitle
+\newpage
+\tableofcontents
+\newpage
+
+
+
+\end{document}
